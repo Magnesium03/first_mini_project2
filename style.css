@@ -5,6 +5,11 @@
     --btn-p-color: #FFFFFF;
     --sub-color:#263140;
     --social-color:#F29D52;
+    --shadow: rgba(0, 0, 0, 0.25);
+    --scroll-top-btn-bg-color: #FFFFFF80;
+    --scroll-top-btn-bd-color: #C4C4C4;
+    --footer-nav-color: #767676;
+    --modal-bg-color: #F2E9D8;
 }
 
 body {
@@ -24,7 +29,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 50;
 }
 
 header .container_navigation-bar {
@@ -163,7 +168,7 @@ main .section-container .section-feature-01 .img_4 {
     width: 660px;
     height: 390px;
     border-radius: 30px;
-    box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 30px 0 var(--shadow);
     background-image: url(./img/img_4.jpg);
     background-repeat: no-repeat;
     background-position: 0 30%;
@@ -245,7 +250,7 @@ main .section-container .section-feature-02 .card-grid {
 main .section-container .section-feature-02 .card-grid img {
     aspect-ratio: 1 / 1;
     border-radius: 30px;
-    box-shadow: 10px 10px 30px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 30px 0 var(--shadow);
 }
 
 main .section-container .section-feature-02 .feature-footer {
@@ -315,16 +320,25 @@ main .section-container .section-feature-03 .newletter-form img {
     position: absolute;
     top: 18px;
     left: 23px;
+    z-index: 20;
 }
 
-main .section-container .section-feature-03 .newletter-form input {
+main .section-container .section-feature-03 .newletter-form .input_box {
     width: 530px;
     height: 60px;
     background-color: var(--btn-p-color);
     border-radius: 60px;
     color: var(--p-color);
+    position: relative;
+}
+
+main .section-container .section-feature-03 .newletter-form .input_box input {
     font-size: 16px;
     font-weight: 400;
+    border: none;
+    position: absolute;
+    top: 21px;
+    left: 63px;
 }
 
 main .section-container .section-feature-03 .newletter-form .btn-sub {
@@ -394,8 +408,8 @@ footer .footer-nav {
 .scroll-top-btn {
     width: 50px;
     height: 50px;
-    background-color: #FFFFFF80;
-    border: solid 1px #c4c4c4;
+    background-color: var(--scroll-top-btn-bg-color);
+    border: solid 1px var(--scroll-top-btn-bd-color);
     border-radius: 100%;
     position: relative;
     position: fixed;
@@ -465,7 +479,7 @@ footer .footer-nav {
 .modal .container p {
     font-size: 14px;
     font-weight: 400;
-    color: #000000;
+    color: var(--p-color);
     margin-bottom: 34px;
 }
 
@@ -479,6 +493,9 @@ footer .footer-nav {
 }
 
 @media (max-width: 1280px) {
+    header .container_navigation-bar {
+        min-width: 550px;
+    }
 
     main {
         height: 3500px;
@@ -593,7 +610,7 @@ footer .footer-nav {
         width: 326px;
         height: 190px;
         border-radius: 18px;
-        box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.25);
+        box-shadow: 10px 10px 20px 0 var(--shadow);
     }
 
     main .section-container .section-feature-01 .feature-content {
@@ -633,7 +650,7 @@ footer .footer-nav {
 
     main .section-container .section-feature-02 .card-grid img {
         border-radius: 18px;
-        box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.25);
+        box-shadow: 10px 10px 20px 0 var(--shadow);
     }
 
     main .section-container .section-feature-02 .feature-footer {
@@ -672,10 +689,15 @@ footer .footer-nav {
         left: 16px;
     }
 
-    main .section-container .section-feature-03 .newletter-form input {
+    main .section-container .section-feature-03 .newletter-form .input_box {
         width: 262px;
         height: 40px;
+    }
+
+    main .section-container .section-feature-03 .newletter-form .input_box input {
         font-size: 12px;
+        top: 13px;
+        left: 46px;
     }
 
     main .section-container .section-feature-03 .newletter-form .btn-sub {
@@ -734,7 +756,7 @@ footer .footer-nav {
     }
 
     footer .footer-nav ul li {
-        color: #767676;
+        color: var(--footer-nav-color);
         font-size: 14px;
         font-weight: 400;
     }
@@ -742,7 +764,7 @@ footer .footer-nav {
     .modal {
         width: 300px;
         height: 300px;
-        background-color: #F2E9D8;
+        background-color: var(--modal-bg-color);
         z-index: -2;
         /* display: none; */
     }
