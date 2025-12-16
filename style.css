@@ -391,7 +391,7 @@ footer .social-icons {
     gap: 20px;
 }
 
-footer .social-icons > div {
+footer .social-icons a {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -733,7 +733,7 @@ footer .footer-nav {
         bottom: 24px;
     }
 
-    footer .social-icons > div {
+    footer .social-icons a {
         width: 32px;
         height: 32px;
     }
