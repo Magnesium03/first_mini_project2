@@ -88,9 +88,26 @@
 - Font: Spoqa Han Sans Neo
 
 ## 4.2 화면 설계
-Desktop ViewMobile View
-<img src="img/screenshot_desktop.png" width="100%" alt="데스크탑 화면">
-<img src="img/screenshot_mobile.png" width="100%" alt="모바일 화면">
+Desktop View
+<img src="./images/screenshot_desktop_1.png" width="100%" alt="데스크탑 화면1">
+<img src="./images/screenshot_desktop_2.png" width="100%" alt="데스크탑 화면2">
+<img src="./images/screenshot_desktop_3.png" width="100%" alt="데스크탑 화면3">
+<img src="./images/screenshot_desktop_4.png" width="100%" alt="데스크탑 화면4">
+
+Desktop_shrink View
+<img src="./images/screenshot_desktop_shrink_1.png" width="100%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_2.png" width="100%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_3.png" width="100%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_4.png" width="100%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_5.png" width="100%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_6.png" width="100%" alt="줄어든 데스크탑 화면">
+
+Mobile View
+<img src="./images/screenshot_mobile_1.png" width="100%" alt="모바일 화면">
+<img src="./images/screenshot_mobile_2.png" width="100%" alt="모바일 화면">
+<img src="./images/screenshot_mobile_3.png" width="100%" alt="모바일 화면">
+<img src="./images/screenshot_mobile_4.png" width="100%" alt="모바일 화면">
+<img src="./images/screenshot_mobile_5.png" width="100%" alt="모바일 화면">
 
 ## 5. 주요 코드 및 트러블 슈팅
 
