@@ -50,73 +50,42 @@
 - **Live Demo**: [https://magnesium03.github.io/first_mini_project2/](https://magnesium03.github.io/first_mini_project2/)
 - **Design Source**: [Figma Link](https://www.figma.com/design/rbi8px4O2GrnXN4gK0ZaLv/WENIV_FE_%EC%8B%A4%EC%8A%B5-%EC%98%88%EC%A0%9C?node-id=49-1791&p=f&t=NlVsrGvdZ10glS7b-0)
 
-## 3. 프로젝트 구조
+## 3. UI/UX 및 구현 화면
 
-### 3.1 폴더 트리
-📦first_mini_project2
- ┣ 📂img
- ┃ ┣ 📜arrow-left.svg
- ┃ ┣ 📜arrow=right.svg
- ┃ ┣ 📜blog.svg
- ┃ ┣ 📜box-cat.svg
- ┃ ┣ 📜cat-subscribe.png
- ┃ ┣ 📜email-icon.svg
- ┃ ┣ 📜facebook.svg
- ┃ ┣ 📜img_1.png
- ┃ ┣ 📜img_2.png
- ┃ ┣ 📜img_3.png
- ┃ ┣ 📜img_4.png
- ┃ ┣ 📜img_5.png
- ┃ ┣ 📜instagram.svg
- ┃ ┣ 📜logo.png
- ┃ ┣ 📜logo.svg
- ┃ ┣ 📜mail.svg
- ┃ ┣ 📜menu.svg
- ┃ ┣ 📜modal-bg-img.png
- ┃ ┣ 📜top-btn-hover.svg
- ┃ ┣ 📜top-btn.svg
- ┃ ┗ 📜youtube.svg
- ┣ 📜index.html
- ┣ 📜style.css
- ┣ 📜reset.css
- ┗ 📜README.md
-
-## 4. UI/UX 및 구현 화면
-
-## 4.1 와이어프레임 및 디자인피그마(Figma)
+## 3.1 와이어프레임 및 디자인피그마(Figma)
 - 디자인 시안을 바탕으로 픽셀 퍼펙트(Pixel Perfect)를 지향하며 개발하였습니다.
 - Font: Spoqa Han Sans Neo
 
-## 4.2 화면 설계
-Desktop View
-<img src="./images/screenshot_desktop_1.png" width="100%" alt="데스크탑 화면1">
-<img src="./images/screenshot_desktop_2.png" width="100%" alt="데스크탑 화면2">
-<img src="./images/screenshot_desktop_3.png" width="100%" alt="데스크탑 화면3">
-<img src="./images/screenshot_desktop_4.png" width="100%" alt="데스크탑 화면4">
+## 3.2 화면 설계
+- Desktop View
+<img src="./images/screenshot_desktop_1.png" width="50%" alt="데스크탑 화면1">
+<img src="./images/screenshot_desktop_2.png" width="50%" alt="데스크탑 화면2">
+<img src="./images/screenshot_desktop_3.png" width="50%" alt="데스크탑 화면3">
+<img src="./images/screenshot_desktop_4.png" width="50%" alt="데스크탑 화면4">
 
-Desktop_shrink View
-<img src="./images/screenshot_desktop_shrink_1.png" width="100%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_2.png" width="100%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_3.png" width="100%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_4.png" width="100%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_5.png" width="100%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_6.png" width="100%" alt="줄어든 데스크탑 화면">
+- Desktop_shrink View
+<img src="./images/screenshot_desktop_shrink_1.png" width="50%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_2.png" width="50%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_3.png" width="50%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_4.png" width="50%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_5.png" width="50%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_6.png" width="50%" alt="줄어든 데스크탑 화면">
 
-Mobile View
-<img src="./images/screenshot_mobile_1.png" width="100%" alt="모바일 화면">
-<img src="./images/screenshot_mobile_2.png" width="100%" alt="모바일 화면">
-<img src="./images/screenshot_mobile_3.png" width="100%" alt="모바일 화면">
-<img src="./images/screenshot_mobile_4.png" width="100%" alt="모바일 화면">
-<img src="./images/screenshot_mobile_5.png" width="100%" alt="모바일 화면">
+- Mobile View
+<img src="./images/screenshot_mobile_1.png" width="50%" alt="모바일 화면">
+<img src="./images/screenshot_mobile_2.png" width="50%" alt="모바일 화면">
+<img src="./images/screenshot_mobile_3.png" width="50%" alt="모바일 화면">
+<img src="./images/screenshot_mobile_4.png" width="50%" alt="모바일 화면">
+<img src="./images/screenshot_mobile_5.png" width="50%" alt="모바일 화면">
 
-## 5. 주요 코드 및 트러블 슈팅
+## 4. 주요 코드 및 트러블 슈팅
 
-### 5.1 반응형 미디어 쿼리 전략
+### 4.1 반응형 미디어 쿼리 전략
 - 다양한 기기 대응을 위해 Breakpoint를 1280px, 768px로 설정하여 레이아웃을 조정했습니다.
 - Desktop ver. 즉, 1920px 이하, 768px 이상일 때의 반응형 구조와 Mobile ver. 즉, 768px 이하, 390px 이상일 때의 반응형 구조를 나누어 설계했습니다.
 - 1280px에 Breakpoint를 준 이유는 Desktop ver.에서 메인의 컨테이너 영역의 너비가 1280px였기 때문에 1280px보다 작아지는 경우에도 Desktop ver.을 유지하면서 자연스럽게 모바일 버전으로 넘어갈 수 있도록 반응형 구조를 설계하였습니다.
 
-### 5.2 CSS 변수(Variables) 활용
+### 4.2 CSS 변수(Variables) 활용
 - 유지보수 효율성을 높이기 위해 색상 코드를 :root 변수로 관리했습니다.
 
 ```CSS
@@ -135,13 +104,13 @@ Mobile View
 }
 ```
 
-## 6. 개발 회고 및 느낀점
+## 5. 개발 회고 및 느낀점
 
-### 6.1 배운 점
+### 5.1 배운 점
 - 시맨틱 태그의 중요성: div 남발을 줄이고 header, main, section, footer 등을 사용하여 문서 구조를 명확히 잡는 법을 익혔습니다.
 - Grid & Flexbox: 복잡한 배치는 Grid로, 1차원 배치는 Flexbox로 상황에 맞게 CSS 레이아웃 시스템을 선택하여 적용했습니다.
 - 크로스 브라우징: reset.css를 통해 브라우저 간 기본 스타일 차이를 최소화하는 경험을 했습니다.
 
-### 6.2 향후 개선 사항
+### 5.2 향후 개선 사항
 - JavaScript 기능 추가: 현재는 UI만 구현되어 있는 모달창 닫기 기능, 이메일 유효성 검사, 스크롤 탑 버튼 동작 등을 JavaScript로 구현하여 동적인 웹사이트로 발전시킬 예정입니다.
 - 이미지 최적화: 고해상도 이미지가 많아 로딩 속도 개선을 위해 picture 태그나 WebP 포맷 도입을 고려하고 있습니다.
