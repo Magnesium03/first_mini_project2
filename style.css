@@ -802,7 +802,7 @@ footer .footer-nav {
     }
 
     .modal2 {
-        /* display: block; */
+        display: block;
         width: 390px;
         height: 820px;
         background-color: var(--btn-p-color);

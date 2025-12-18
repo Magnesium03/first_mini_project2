@@ -64,19 +64,26 @@
 <img src="./images/screenshot_desktop_4.png" width="50%" alt="데스크탑 화면4">
 
 - Desktop_shrink View
-<img src="./images/screenshot_desktop_shrink_1.png" width="50%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_2.png" width="50%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_3.png" width="50%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_4.png" width="50%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_5.png" width="50%" alt="줄어든 데스크탑 화면">
-<img src="./images/screenshot_desktop_shrink_6.png" width="50%" alt="줄어든 데스크탑 화면">
+<img src="./images/screenshot_desktop_shrink_1.png" width="50%" alt="줄어든 데스크탑 화면1">
+<img src="./images/screenshot_desktop_shrink_2.png" width="50%" alt="줄어든 데스크탑 화면2">
+<img src="./images/screenshot_desktop_shrink_3.png" width="50%" alt="줄어든 데스크탑 화면3">
+<img src="./images/screenshot_desktop_shrink_4.png" width="50%" alt="줄어든 데스크탑 화면4">
+<img src="./images/screenshot_desktop_shrink_5.png" width="50%" alt="줄어든 데스크탑 화면5">
+<img src="./images/screenshot_desktop_shrink_6.png" width="50%" alt="줄어든 데스크탑 화면6">
 
 - Mobile View
-<img src="./images/screenshot_mobile_1.png" width="50%" alt="모바일 화면">
-<img src="./images/screenshot_mobile_2.png" width="50%" alt="모바일 화면">
-<img src="./images/screenshot_mobile_3.png" width="50%" alt="모바일 화면">
-<img src="./images/screenshot_mobile_4.png" width="50%" alt="모바일 화면">
-<img src="./images/screenshot_mobile_5.png" width="50%" alt="모바일 화면">
+<img src="./images/screenshot_mobile_1.png" width="50%" alt="모바일 화면1">
+<img src="./images/screenshot_mobile_2.png" width="50%" alt="모바일 화면2">
+<img src="./images/screenshot_mobile_3.png" width="50%" alt="모바일 화면3">
+<img src="./images/screenshot_mobile_4.png" width="50%" alt="모바일 화면4">
+<img src="./images/screenshot_mobile_5.png" width="50%" alt="모바일 화면5">
+
+- Desktop View 팝업창
+<img src="./images/screenshot_desktop_popup.png" width="50%" alt="데스크탑 팝업창">
+
+- Moblie View 팝업창
+<img src="./images/screenshot_mobile_popup.png" width="50%" alt="모바일 팝업창1">
+<img src="./images/screenshot_mobile_popup2.png" width="50%" alt="모바일 팝업창2">
 
 ## 4. 주요 코드 및 트러블 슈팅
 
