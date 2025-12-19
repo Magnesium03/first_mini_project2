@@ -77,7 +77,7 @@
       <img src="./images/screenshot_desktop_3.png" width="50%" alt="데스크탑 화면3">
       <img src="./images/screenshot_desktop_4.png" width="50%" alt="데스크탑 화면4">
     </td>
-    <td align="center" colspan="2">
+    <td align="center">
       <img src="./images/screenshot_desktop_shrink_1.png" width="50%" alt="줄어든 데스크탑 화면1">
       <img src="./images/screenshot_desktop_shrink_2.png" width="50%" alt="줄어든 데스크탑 화면2">
       <img src="./images/screenshot_desktop_shrink_3.png" width="50%" alt="줄어든 데스크탑 화면3">
