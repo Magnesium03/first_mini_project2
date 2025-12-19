@@ -60,42 +60,13 @@
 - Font: Spoqa Han Sans Neo
 
 ## 3.2 화면 설계
-- Desktop View
-<img src="./images/screenshot_desktop_1.png" width="50%" alt="데스크탑 화면1">
-<img src="./images/screenshot_desktop_2.png" width="50%" alt="데스크탑 화면2">
-<img src="./images/screenshot_desktop_3.png" width="50%" alt="데스크탑 화면3">
-<img src="./images/screenshot_desktop_4.png" width="50%" alt="데스크탑 화면4">
-
-- Desktop_shrink View
-<img src="./images/screenshot_desktop_shrink_1.png" width="50%" alt="줄어든 데스크탑 화면1">
-<img src="./images/screenshot_desktop_shrink_2.png" width="50%" alt="줄어든 데스크탑 화면2">
-<img src="./images/screenshot_desktop_shrink_3.png" width="50%" alt="줄어든 데스크탑 화면3">
-<img src="./images/screenshot_desktop_shrink_4.png" width="50%" alt="줄어든 데스크탑 화면4">
-<img src="./images/screenshot_desktop_shrink_5.png" width="50%" alt="줄어든 데스크탑 화면5">
-<img src="./images/screenshot_desktop_shrink_6.png" width="50%" alt="줄어든 데스크탑 화면6">
-
-- Mobile View
-<img src="./images/screenshot_mobile_1.png" width="50%" alt="모바일 화면1">
-<img src="./images/screenshot_mobile_2.png" width="50%" alt="모바일 화면2">
-<img src="./images/screenshot_mobile_3.png" width="50%" alt="모바일 화면3">
-<img src="./images/screenshot_mobile_4.png" width="50%" alt="모바일 화면4">
-<img src="./images/screenshot_mobile_5.png" width="50%" alt="모바일 화면5">
-
-- Desktop View 팝업창
-<img src="./images/screenshot_desktop_popup.png" width="50%" alt="데스크탑 팝업창">
-
-- Moblie View 팝업창
-<img src="./images/screenshot_mobile_popup.png" width="50%" alt="모바일 팝업창1">
-<img src="./images/screenshot_mobile_popup2.png" width="50%" alt="모바일 팝업창2">
-
-
-## 🖥️ 화면 설계 (UI Design)
 
 ### 1. 메인 웹페이지 (Main Page)
 <table>
   <tr>
     <th align="center">구분</th>
     <th align="center">데스크탑 (Desktop)</th>
+    <th align="center">데스크탑 축소 버전</th>
     <th align="center">모바일 (Mobile)</th>
   </tr>
   <tr>
@@ -106,16 +77,6 @@
       <img src="./images/screenshot_desktop_3.png" width="50%" alt="데스크탑 화면3">
       <img src="./images/screenshot_desktop_4.png" width="50%" alt="데스크탑 화면4">
     </td>
-    <td align="center">
-      <img src="./images/screenshot_mobile_1.png" width="50%" alt="모바일 화면1">
-      <img src="./images/screenshot_mobile_2.png" width="50%" alt="모바일 화면2">
-      <img src="./images/screenshot_mobile_3.png" width="50%" alt="모바일 화면3">
-      <img src="./images/screenshot_mobile_4.png" width="50%" alt="모바일 화면4">
-      <img src="./images/screenshot_mobile_5.png" width="50%" alt="모바일 화면5">
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>축소 버전</strong></td>
     <td align="center" colspan="2">
       <img src="./images/screenshot_desktop_shrink_1.png" width="50%" alt="줄어든 데스크탑 화면1">
       <img src="./images/screenshot_desktop_shrink_2.png" width="50%" alt="줄어든 데스크탑 화면2">
@@ -124,8 +85,14 @@
       <img src="./images/screenshot_desktop_shrink_5.png" width="50%" alt="줄어든 데스크탑 화면5">
       <img src="./images/screenshot_desktop_shrink_6.png" width="50%" alt="줄어든 데스크탑 화면6">
     </td>
+    <td align="center">
+      <img src="./images/screenshot_mobile_1.png" width="50%" alt="모바일 화면1">
+      <img src="./images/screenshot_mobile_2.png" width="50%" alt="모바일 화면2">
+      <img src="./images/screenshot_mobile_3.png" width="50%" alt="모바일 화면3">
+      <img src="./images/screenshot_mobile_4.png" width="50%" alt="모바일 화면4">
+      <img src="./images/screenshot_mobile_5.png" width="50%" alt="모바일 화면5">
+    </td>
   </tr>
-</table>
 
 ### 2. 팝업창 (Popup / Modal)
 <table>
